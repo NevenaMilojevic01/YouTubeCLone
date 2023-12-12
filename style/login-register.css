@@ -1,0 +1,130 @@
+body {
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  background: url(/pictures/youtube-bc.jpg);
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.container {
+  width: 400px;
+  max-width: 400px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  border: 3px solid rgb(137, 2, 2);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+.youtube-logo_icon {
+  height: 18px;
+}
+
+.form_youtube-logo {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.form >*:first-child {
+  margin-top: 0;
+}
+.form >*:last-child {
+  margin-bottom: 0;
+}
+
+.login-text {
+  text-align: center; 
+}
+
+.form_input_group {
+  margin-bottom: 12px;
+}
+
+.form_input {
+  display: block;
+  width: 94%;
+  padding: 10px;
+  border-radius: 7px;
+  border: 2px solid rgb(230, 226, 226);
+  outline: none;
+  transition: background 0.2s, border-color 0.2s;
+  background-color: rgb(252, 246, 246);
+  position: relative;
+}
+
+.button_login {
+  display: flex;
+  justify-content: right;
+}
+
+.form_button {
+  border: none;
+  padding: 12px 30px;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(137, 2, 2);
+  transition: background-color 0.2s;
+}
+
+.form_button:hover {
+  background-color: rgb(122, 2, 2);
+}
+
+.form_button:active {
+  transform: scale(0.98);
+}
+
+.form_input:focus {
+  border: 2px solid rgb(137, 2, 2);
+  background-color: white;
+}
+
+.form_text {
+  text-align: center;
+}
+
+.form_text a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+
+.span_register{
+  color: rgb(137, 2, 2);
+}
+
+.span_register:hover {
+  text-decoration: underline;
+}
+
+.success input {
+  visibility: visible;
+}
+
+.error input {
+  visibility: visible;
+}
+
+
+.error p {
+  color: red;
+  visibility: visible;
+  font-size: 12px;
+  padding: 8px;
+  margin: 0;
+}
+
+.success p {
+  visibility: hidden;
+  margin: 0;
+}
+

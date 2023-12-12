@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTubeClone Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style/login-register.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="form" id="login" action="youtube.html" method="get">
+        <div class="form_youtube-logo">
+          <a href="youtube.html"
+            ><img
+              class="youtube-logo_icon"
+              src="/icons-header/youtube-logo.svg"
+          /></a>
+        </div>
+        <h1 class="login-text">Login</h1>
+        <div class="form_input_group">
+          <input type="text" id="username" name="username" class="form_input" placeholder="Username"/>
+          <p></p>
+        </div>
+        <div class="form_input_group">
+          <input type="password" id="password" name="password" class="form_input" placeholder="Password"/>
+          <p></p>
+        </div>
+        <div class="button_login">
+          <button class="form_button" type="submit">Login</button>
+        </div>
+        <p class="form_text">
+          <a href="#">Forgot your password?</a>
+        </p>
+        <p class="form_text">
+          <a href="register.html" id="AccountRegister">Don't have an account?<span class="span_register"> Register</span></a>
+        </p>
+      </form>
+    </div>
+
+    <script src="js/login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/youtube.css" />
+    <link rel="stylesheet" href="style/header.css" />
+    <link rel="stylesheet" href="style/general.css" />
+    <link rel="stylesheet" href="style/side-bar.css" />
+  </head>
+  <body>
+    <!-- Header -->
+
+    <header class="header">
+      <div class="left-section">
+        <img class="bar" src="icons-header/bar.svg" />
+        <img class="youtube-logo" src="icons-header/youtube-logo.svg" />
+      </div>
+      <div class="middle-section">
+        <input class="search" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="icons-header/search.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-button">
+          <img class="voice-icon" src="icons-header/voice-search-icon.svg" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons-header/upload.svg" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-container">
+          <img class="apps" src="icons-header/youtube-apps.svg" />
+          <div class="tooltip">More</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img
+            class="notifications-icon"
+            src="icons-header/notifications.svg"
+          />
+          <div class="tooltip">Notification</div>
+          <div class="notification-number">
+            <p>3</p>
+          </div>
+        </div>
+        <a href="login.html">
+          <button class="user-button">
+            <img class="circle" src="pictures/circle.png" />
+            <div class="tooltip">Login</div>
+          </button>
+        </a>
+      </div>
+    </header>
+
+    <!-- Sidebar -->
+
+    <nav class="side-bar">
+      <div class="sidebar-link">
+        <img src="icons-sidebar/home.svg" />
+        <p>Home</p>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons-sidebar/explore.svg" />
+        <p>Explore</p>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons-sidebar/subscriptions.svg" />
+        <p>Subscriptions</p>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons-sidebar/originals.svg" />
+        <p>Originals</p>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons-sidebar/youtube-music.svg" />
+        <p>YouTube Music</p>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons-sidebar/library.svg" />
+        <p>Library</p>
+      </div>
+    </nav>
+
+    <!-- Body -->
+    <main>
+      <section class="container-grid">
+        <div class="container">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="pictures/tum1.jpg" />
+            <div class="time">
+              <p>04:45</p>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic">
+              <img
+                class="profile-picture-edit"
+                src="pictures/profile-picture1.jpg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Sean Paul, Dua Lipa - No Lie (Lyrics)</p>
+              <p class="video-author">Latin</p>
+              <p class="video-views">28M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="pictures/tum3.jpg" />
+            <div class="time">
+              <p>01:55:45</p>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic">
+              <img
+                class="profile-picture-edit"
+                src="pictures/profile-picture3.jpg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Summer mix - dj snake, avicii, justin bieber, rihanna, kygo,
+                david guetta, calvin harris, jonas blue
+              </p>
+              <p class="video-author">Music Mix</p>
+              <p class="video-views">18M &#183; 2 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="pictures/tum2.jpg" />
+            <div class="time">
+              <p>13:55</p>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic">
+              <img
+                class="profile-picture-edit"
+                src="pictures/profile-picture2.jpg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                The Richest Family In My Town Claim I'm Their Daughter
+              </p>
+              <p class="video-author">MSA</p>
+              <p class="video-views">4M views &#183; 2 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="pictures/tum4.jpg" />
+            <div class="time">
+              <p>15:14</p>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic">
+              <img
+                class="profile-picture-edit"
+                src="pictures/profile-picture4.jpg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">How to reset your brain for success</p>
+              <p class="video-author">Iman Gadzhi</p>
+              <p class="video-views">50M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="pictures/tum5.jpg" />
+            <div class="time">
+              <p>04:01:45</p>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic">
+              <img
+                class="profile-picture-edit"
+                src="pictures/profile-picture5.jpg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">4-HOUR STUDY WITH ME</p>
+              <p class="video-author">StudyMD</p>
+              <p class="video-views">150K &#183; 5 day ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="pictures/tum6.jpg" />
+            <div class="time">
+              <p>08:33</p>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic">
+              <img
+                class="profile-picture-edit"
+                src="pictures/profile-picture6.jpg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Coding Learning MISTAKES that Hold Beginners Back
+              </p>
+              <p class="video-author">Internet Made Coder</p>
+              <p class="video-views">10M views &#183; 1 week ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="pictures/tum5.jpg" />
+            <div class="time">
+              <p>04:01:45</p>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic">
+              <img
+                class="profile-picture-edit"
+                src="pictures/profile-picture5.jpg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">4-HOUR STUDY WITH ME</p>
+              <p class="video-author">StudyMD</p>
+              <p class="video-views">150K &#183; 5 day ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="pictures/tum3.jpg" />
+            <div class="time">
+              <p>01:55:45</p>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic">
+              <img
+                class="profile-picture-edit"
+                src="pictures/profile-picture3.jpg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Summer mix - dj snake, avicii, justin bieber, rihanna, kygo,
+                david guetta, calvin harris, jonas blue
+              </p>
+              <p class="video-author">Music Mix</p>
+              <p class="video-views">18M &#183; 2 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="pictures/tum4.jpg" />
+            <div class="time">
+              <p>15:14</p>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic">
+              <img
+                class="profile-picture-edit"
+                src="pictures/profile-picture4.jpg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">How to reset your brain for success</p>
+              <p class="video-author">Iman Gadzhi</p>
+              <p class="video-views">50M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="pictures/tum2.jpg" />
+            <div class="time">
+              <p>13:55</p>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic">
+              <img
+                class="profile-picture-edit"
+                src="pictures/profile-picture2.jpg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                The Richest Family In My Town Claim I'm Their Daughter
+              </p>
+              <p class="video-author">MSA</p>
+              <p class="video-views">4M views &#183; 2 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="pictures/tum5.jpg" />
+            <div class="time">
+              <p>04:01:45</p>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic">
+              <img
+                class="profile-picture-edit"
+                src="pictures/profile-picture5.jpg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">4-HOUR STUDY WITH ME</p>
+              <p class="video-author">StudyMD</p>
+              <p class="video-views">150K &#183; 5 day ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="pictures/tum1.jpg" />
+            <div class="time">
+              <p>04:45</p>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic">
+              <img
+                class="profile-picture-edit"
+                src="pictures/profile-picture1.jpg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Sean Paul, Dua Lipa - No Lie (Lyrics)</p>
+              <p class="video-author">Latin</p>
+              <p class="video-views">28M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

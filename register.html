@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTubeClone Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style/login-register.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="form" id="register" method="get" action="youtube.html">
+        <div class="form_youtube-logo">
+          <a href="youtube.html"
+            ><img
+              class="youtube-logo_icon"
+              src="/icons-header/youtube-logo.svg"
+          /></a>
+        </div>
+        <h1 class="login-text">Register</h1>
+        <div class="form_input_group">
+          <input type="text" id="username" class="form_input" name="username2" placeholder="Username"/>
+          <p></p>
+        </div>
+        <div class="form_input_group">
+          <input type="email" id="email" class="form_input" name="email" placeholder="Email"/>
+          <p></p>
+        </div>
+        <div class="form_input_group">
+          <input type="password" id="password" class="form_input" name="password2" placeholder="Password"/>
+          <p></p>
+        </div>
+        <div class="form_input_group">
+          <input type="password" id="confirmPassword" class="form_input" name="confirmPassword" placeholder="Confirm password"/>
+          <p></p>
+        </div>
+        <div class="button_login">
+          <button class="form_button" type="submit">Register</button>
+        </div>
+        <p class="form_text">
+          <a href="login.html" id="AccountLogin">Already have an account?  <span class="span_register">Login</span></a>
+        </p>
+      </form>
+    </div>
+    <script src="js/registar.js"></script>
+  </body>
+</html>
